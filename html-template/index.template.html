@@ -1,0 +1,30 @@
+<html lang="en">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<script src="resources/swfobject.js" type="text/javascript" charset="utf-8"></script>
+</head>
+
+<body>
+	<div id="swf">
+	</div>
+
+<script type="text/javascript" charset="utf-8">
+
+	var flashvars = {
+		dataSource : "../assets/data/copyright.xml",
+		font : "Georgia",
+		size : 12,
+		color : 0xffffff,
+		bold : true,
+		type : "slide"
+	}
+	
+	var params = {
+		backgroundColor : "0x000000"
+	}
+
+	swfobject.embedSWF("CopyrightExample.swf", "swf", "500", "400", "9.0.0","resources/expressInstall.swf", flashvars, params);
+
+</script>
+</body>
+</html>
